@@ -1,0 +1,80 @@
+body{
+    background-image: url(image/back.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+.main{
+    background-color: #000000;
+    width: 35%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div2,.div1,.btn{
+    background-color: #1d313e;
+    width: 80%;
+    position: relative;
+    border-radius: 27px;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div1{
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.div2{
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.div2 div{
+    height: 18%;
+}
+.div1 div{
+    text-align: center;
+}
+button{
+    width: 27%;
+    height: 42px;
+    border-radius: 22px;
+    border: none;
+    color: #52ffbf;
+    background-color: #232e2a;
+}
+p{
+    color: #52ffbf;
+}
+.btn{
+    background-color: black;
+}
+
+@media only screen and (max-width: 1060px){
+    .main{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 740px){
+    .main{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 540px){
+    .main{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .main{
+        width: 98%;
+    }
+}
